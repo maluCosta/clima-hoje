@@ -41,7 +41,7 @@ const showWeatherData = async (city) => {
 
 // Eventos
 searchBtn.addEventListener("click", (e) => {
-    e.preventDeFault()
+    e.preventDefault();
 
     const city = cityInput.value
 
